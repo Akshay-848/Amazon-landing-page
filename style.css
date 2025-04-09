@@ -169,15 +169,17 @@ span{
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
+    /* background-image: linear-gradient(to left,red,green); */
     padding-bottom: 10px;
 }
-
 .box{
     height: 400px;  
-    width: 300px;
+    width: 400px;
     background-color: white;
     padding: 20px 0px 15px;
+    /* background-image: linear-gradient(to top left,red,green); */
     margin-top: 1rem;
+
 }
 
 .box-image{
@@ -208,15 +210,19 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* text-align: center; */
+
     font-size: 0.85rem;
 }
 
 .foot-panel2{
     background-color: #222f3d;
     color: white;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 ul{
